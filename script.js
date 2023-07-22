@@ -3,6 +3,18 @@ document.querySelector("#search-btn").onclick = () => {
   searchForm.classList.toggle("active");
 };
 
+let loginForm = document.querySelector(".login-form-container");
+
+document.querySelector("#login-btn").onclick = () => {
+  console.log("teste");
+  loginForm.classList.toggle("active");
+};
+
+document.querySelector("#close-login-btn").onclick = () => {
+  console.log("teste");
+  loginForm.classList.remove("active");
+};
+
 window.onscroll = () => {
   searchForm.classList.remove("active");
   if (window.scrollY > 80) {
