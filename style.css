@@ -175,7 +175,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
   right: -105%;
@@ -184,7 +184,7 @@ body {
   width: 100%;
 }
 
-.login-form-container .active {
+.login-form-container.active {
   right: 0;
 }
 .login-form-container form {

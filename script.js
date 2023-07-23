@@ -1,4 +1,5 @@
-searchForm = document.querySelector(".search-form");
+let searchForm = document.querySelector(".search-form");
+
 document.querySelector("#search-btn").onclick = () => {
   searchForm.classList.toggle("active");
 };
@@ -6,12 +7,10 @@ document.querySelector("#search-btn").onclick = () => {
 let loginForm = document.querySelector(".login-form-container");
 
 document.querySelector("#login-btn").onclick = () => {
-  console.log("teste");
   loginForm.classList.toggle("active");
 };
 
 document.querySelector("#close-login-btn").onclick = () => {
-  console.log("teste");
   loginForm.classList.remove("active");
 };
 
