@@ -34,7 +34,7 @@ window.onload = () => {
 var swiper = new Swiper(".books-slider", {
   loop: true,
   autoplay: {
-    delay: 9500,
+    delay: 500,
     disableOnInteraction: false,
   },
   breakpoints: {
@@ -70,6 +70,25 @@ var swiper = new Swiper(".featured-slider", {
       slidesPerView: 2,
     },
     768: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".arrivals-slider", {
+  loop: true,
+  autoplay: {
+    delay: 8000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
       slidesPerView: 3,
     },
   },
