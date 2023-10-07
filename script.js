@@ -37,8 +37,8 @@ function loader() {
 }
 
 function fadeOut() {
-  setTimeout(loader, 4000);
-  setTimeout(scrollOn, 4000);
+  setTimeout(loader, 2000);
+  setTimeout(scrollOn, 2000);
 }
 
 function scrollOn() {
